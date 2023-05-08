@@ -1,0 +1,73 @@
+/* .ant-layout-sider{
+    background-color: white !important;
+} */
+.FIE_tools-bar-wrapper{
+    max-width: 1000px !important;
+}
+
+.ant-pagination-item >a{
+    /* color:white !important; */
+}
+.ant-pagination-item-active{
+    background-color: #e11d48 !important;
+    border-radius: 1000px !important;
+    border:none !important;
+    transition: all 1s;
+}
+.ant-pagination-options{
+    display: none !important;
+}
+.ant-pagination-item-link{
+    color: white !important;
+}
+.ant-pagination-item-active >a{
+    color: white !important;
+}
+/* tile uploaded pictures */
+.upload-list-inline .ant-upload-list-item {
+  /* float: left;
+  width: 200px;
+  margin-inline-end: 8px; */
+  border: none !important;
+}
+
+.ant-upload-rtl.upload-list-inline .ant-upload-list-item {
+  float: right;
+}
+
+.ant-empty-image{
+    display: flex !important;
+    justify-content: center !important;
+}
+
+ .ant-upload-select{
+    width: 100% !important;
+    display: block !important;
+
+}
+
+.ant-list-item{
+    padding-left: 0px !important;
+     padding-right: 0px !important;
+}
+
+.ant-spin-spinning{
+    height: 100vh !important;
+    max-height: max-content !important;
+}
+.ant-statistic-title{
+    color: rgb(176, 176, 176) !important;
+}
+
+.ant-statistic-content-value-decimal,.ant-statistic-content-value-int{
+    color: white !important;
+}
+
+.ant-spin-container .ant-spin-blur {
+    height: 100vh !important;
+}
+
+.ant-dropdown-menu-root {
+    border-radius: 2px !important;
+    background-color: rgb(222, 222, 222) !important;
+}

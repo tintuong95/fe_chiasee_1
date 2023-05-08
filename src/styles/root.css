@@ -1,0 +1,32 @@
+@import "./antd.css";
+@import "./tailwind.css";
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700;800;900&display=swap');
+
+body{
+    font-family: 'Quicksand', sans-serif !important;
+
+}
+
+.bg-login {
+    width: 700px !important;
+    height: 400px !important;
+        background-image:
+   linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    url('https://www.hdnicewallpapers.com/Walls/Big/Elephant/Beautiful_Big_Three_Elephants_walking_on_Dry_Grass_Wallpapers.jpg');
+    background-position: center;
+   
+    background-size: cover;
+    color: white;
+}
+
+.bg-opacity-300{
+    background-color: rgba(169, 169, 169, 0.358);
+}
+
+.album:hover .icon-link {
+    display: block !important;
+}
+
+.swiper-wrapper{
+    height: 100vh !important;
+}
